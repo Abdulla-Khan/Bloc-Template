@@ -19,9 +19,7 @@ class PickImageBottomSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(
-        vertical: 28.h,
-      ),
+      margin: EdgeInsets.symmetric(vertical: 28.h),
       decoration: ShapeDecoration(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
@@ -33,16 +31,16 @@ class PickImageBottomSheet extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          ImagePickerSheetCard(
-            onTap: onCamera,
-            title: "Camera",
-            icon: AppVectors.camera,
-          ),
-          ImagePickerSheetCard(
-            onTap: onGallery,
-            title: "Gallery",
-            icon: AppVectors.gallery,
-          ),
+          // ImagePickerSheetCard(
+          //   onTap: onCamera,
+          //   title: "Camera",
+          //   icon: AppVectors.camera,
+          // ),
+          // ImagePickerSheetCard(
+          //   onTap: onGallery,
+          //   title: "Gallery",
+          //   icon: AppVectors.gallery,
+          // ),
         ],
       ),
     );
@@ -64,21 +62,20 @@ class ImagePickerSheetCard extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        margin: EdgeInsets.symmetric(
-          vertical: 28.h,
-        ),
+        margin: EdgeInsets.symmetric(vertical: 28.h),
         width: 158.w,
         height: 180.h,
         decoration: BoxDecoration(
-            color: AppColors.white,
-            borderRadius: BorderRadius.circular(8.r),
-            boxShadow: [
-              BoxShadow(
-                color: AppColors.grey,
-                offset: Offset(3, 3),
-                blurRadius: 6,
-              ),
-            ]),
+          color: AppColors.white,
+          borderRadius: BorderRadius.circular(8.r),
+          boxShadow: [
+            BoxShadow(
+              color: AppColors.grey,
+              offset: Offset(3, 3),
+              blurRadius: 6,
+            ),
+          ],
+        ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.center,
