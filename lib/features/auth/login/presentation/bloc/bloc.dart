@@ -1,4 +1,4 @@
-import 'package:bussels/features/auth/login/domain/usecase/login_usecase.dart';
+import '../../domain/usecase/login_usecase.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 part "event.dart";

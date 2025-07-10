@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:bussels/config/colors/colors.dart';
+import '../../colors/colors.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class ToastUtil {

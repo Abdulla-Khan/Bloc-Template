@@ -34,20 +34,18 @@ class SharedPrefsStorage {
 
   static Future<void> setUserId(String id) async =>
       await _instance._prefs.setString(StorageKeys.userId, id);
-  static String? getUserId() => _instance._prefs.getString(StorageKeys.userId);
-  static Future<void> setUserFit(String fit) async =>
-      await _instance._prefs.setString(StorageKeys.fit, fit);
-  static String? getUserFit() => _instance._prefs.getString(StorageKeys.fit);
 
   static Future<void> setRecentSearchesList(
-      List<Map<String, dynamic>> searches) async {
+    List<Map<String, dynamic>> searches,
+  ) async {
     final encoded = searches.map((e) => jsonEncode(e)).toList();
     await _instance._prefs.setStringList(StorageKeys.recentSearches, encoded);
   }
 
   static List<Map<String, dynamic>> getRecentSearchesList() {
-    final encodedList =
-        _instance._prefs.getStringList(StorageKeys.recentSearches);
+    final encodedList = _instance._prefs.getStringList(
+      StorageKeys.recentSearches,
+    );
     if (encodedList == null) return [];
     return encodedList
         .map((e) => jsonDecode(e) as Map<String, dynamic>)

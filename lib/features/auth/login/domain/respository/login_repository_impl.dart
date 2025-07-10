@@ -1,7 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:bussels/core/errors/failure.dart';
-import 'package:bussels/features/auth/login/data/datasources/login_remote_datasources.dart';
-
+import '../../../../../core/errors/failure.dart';
+import '../../data/datasources/login_remote_datasources.dart';
 import '../../data/models/login_request_model.dart';
 import '../entities/login_entity.dart';
 import 'login_repository.dart';

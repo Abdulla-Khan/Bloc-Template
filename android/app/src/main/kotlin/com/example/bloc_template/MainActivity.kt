@@ -1,4 +1,4 @@
-package com.example.bussels
+package com.example.bloc_template
 
 import io.flutter.embedding.android.FlutterActivity
 

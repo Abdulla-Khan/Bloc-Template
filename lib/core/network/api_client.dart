@@ -1,10 +1,11 @@
 import 'package:dio/dio.dart';
-import 'package:bussels/config/router/app_router.dart';
-import 'package:bussels/config/router/enum/app_routes_enum.dart';
-import 'package:bussels/config/storage/app_storage.dart';
-import 'package:bussels/core/constants/app_constants.dart';
-import 'package:bussels/core/network/network_info.dart';
-import 'package:bussels/core/network/token_provider.dart';
+
+import '../../config/router/app_router.dart';
+import '../../config/router/enum/app_routes_enum.dart';
+import '../../config/storage/app_storage.dart';
+import '../constants/app_constants.dart';
+import 'network_info.dart';
+import 'token_provider.dart';
 
 class ApiClient {
   final Dio _dio;

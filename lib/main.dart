@@ -1,8 +1,8 @@
-import 'package:bussels/config/providers/app_providers.dart';
-import 'package:bussels/config/router/app_router.dart';
-import 'package:bussels/config/storage/app_storage.dart';
-import 'package:bussels/config/theme/app_theme.dart';
-import 'package:bussels/core/di/service_locator.dart';
+import '/config/providers/app_providers.dart';
+import '/config/router/app_router.dart';
+import '/config/storage/app_storage.dart';
+import '/config/theme/app_theme.dart';
+import '/core/di/service_locator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

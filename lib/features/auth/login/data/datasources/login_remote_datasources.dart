@@ -1,7 +1,6 @@
-import 'package:bussels/features/auth/login/data/models/login_request_model.dart';
-import 'package:bussels/features/auth/login/data/models/login_response_model.dart';
-
 import '../../../../../core/network/api_client.dart';
+import '../models/login_request_model.dart';
+import '../models/login_response_model.dart';
 
 abstract class LoginRemoteDataSource {
   Future<LoginResponseModel> login(LoginRequestModel model);

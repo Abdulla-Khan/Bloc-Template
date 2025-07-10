@@ -1,5 +1,6 @@
-import 'package:bussels/config/colors/colors.dart';
 import 'package:flutter/material.dart';
+
+import '../colors/colors.dart';
 
 class AppThemeData {
   AppThemeData._();

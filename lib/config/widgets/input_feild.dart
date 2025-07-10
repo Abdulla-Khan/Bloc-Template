@@ -1,7 +1,7 @@
-import 'package:bussels/config/colors/colors.dart';
-import 'package:bussels/config/helper/spacers/spacers.dart';
-import 'package:bussels/config/helper/typography/app_text_styles.dart';
-import 'package:bussels/config/widgets/app_text.dart';
+import '../colors/colors.dart';
+import '../helper/spacers/spacers.dart';
+import '../helper/typography/app_text_styles.dart';
+import 'app_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../helper/form_validation/form_validator.dart';

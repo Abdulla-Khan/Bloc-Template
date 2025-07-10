@@ -1,5 +1,5 @@
-import 'package:bussels/config/helper/typography/app_text_styles.dart';
 import 'package:flutter/material.dart';
+import '../helper/typography/app_text_styles.dart';
 
 class AppText extends StatelessWidget {
   final String text;

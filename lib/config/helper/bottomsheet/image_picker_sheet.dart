@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../assets/icons.dart';
 import '../../colors/colors.dart';
 import '../../widgets/app_text.dart';
 import '../image_provider/fitted_image_provider.dart';

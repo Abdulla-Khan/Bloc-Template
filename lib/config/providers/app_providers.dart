@@ -1,4 +1,4 @@
-import 'package:bussels/config/providers/auth/auth_providers.dart';
+import 'auth/auth_providers.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AppProviders {
